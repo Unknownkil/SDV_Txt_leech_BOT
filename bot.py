@@ -109,7 +109,7 @@ async def handle_range_input(update: Update, context: CallbackContext):
 # Main Bot
 def main():
     # Create application instead of Updater
-    application = Application.builder().token("BOT_TOKEN").build()
+    application = Application.builder().token("7497967505:AAHUTJt31Znc1pKXUmoRKMpF4QgmATGpUlU").build()
 
     # Handlers
     application.add_handler(CommandHandler("start", start))
